@@ -13,3 +13,22 @@ header h1 {
     padding-top: 30px;
     color: #ffffff;
 }
+.student-adding-area{
+    border: 1px solid red;
+    text-align: center;
+    height: 10vh;
+    position: relative;
+}
+.group-btn{
+    border: 1px red solid;
+    width: 50vh;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 40px;
+}
+input [type="text"]{
+    width: 600px;
+    height: 40px;
+}
+/*https://www.youtube.com/watch?v=y9zCxC4rizI
+https://www.youtube.com/watch?v=biI9OFH6Nmg */
