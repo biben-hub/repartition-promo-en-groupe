@@ -11,39 +11,38 @@
         <h1>Gestion des groupes</h1>
     </header>
     <main class="container">
-        <section class="student-adding-area">
-            <div class="group-btn">
-                <input type="text" placeholder="Veuillez entrer le nom de l'élève à ajouter...">
-                <button id="add-btn">Ajouter</button>
-            </div>
-        </section>
-        <section class="student-list">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Liste des élèves</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
-                </tbody>
-            </table>
-        </section>
-        <section class="number-group-student">
-            <div>
-                <label for="">Entrez votre nombre de groupe : </label>
-                <input type="text">
-                <label for="">Nombre d'élèves par groupe : </label>
-                <input type="text">
-            </div>
-            <div>
+        <form method="POST" name="group">
+            <section class="student-adding-area">
+                <label for="">
+                    <input id="add-name" type="text" name="add" value="Add Data" onclick="addStudent();" placeholder="Veuillez entrer le nom de l'élève à ajouter...">
+                    <button id="add-btn">Ajouter</button>
+                </label>
+                <!--<input type="checkbox" class="validation" checked>-->
+            </section>
+            <section class="student-list">
+                <table class="table-list">
+                    <thead>
+                        <tr>
+                            <th>Liste des élèves</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--liste élèves ajoutés-->
+                    </tbody>
+                </table>
+            </section>
+            <section class="number-group-student">
+                <div>
+                    <label for="">Entrez votre nombre de groupe : </label>
+                    <input type="text">
+                    <label for="">Nombre d'élèves par groupe : </label>
+                    <input type="text">
+                </div>
+                <div>
 
-            </div>
-        </section>
+                </div>
+            </section>
+        </form>
     </main>
     <script src="script.js"></script>
 </body>

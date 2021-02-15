@@ -14,21 +14,44 @@ header h1 {
     color: #ffffff;
 }
 .student-adding-area{
-    border: 1px solid red;
     text-align: center;
     height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
     position: relative;
 }
-.group-btn{
-    border: 1px red solid;
-    width: 50vh;
+#add-name{
+    width: 45vh;
+    height: 5vh;
+    border: none;
+    padding: 0 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+#add-btn {
     position: absolute;
-    margin-left: 650px;
-    margin-top: 40px;
+    background:  #C3C3C3;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: #ffffff;
+    height: 5vh;
+    width: 10vh;
+    border-radius: 10px;
+    border: none;
+    color: black;
 }
-input [type="text"]{
-    width: 600px;
-    height: 40px;
+.student-list{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
 }
+.table-list{
+
+}
+
 /*https://www.youtube.com/watch?v=y9zCxC4rizI
 https://www.youtube.com/watch?v=biI9OFH6Nmg */
