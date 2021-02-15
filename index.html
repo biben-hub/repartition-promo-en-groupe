@@ -11,13 +11,14 @@
         <h1>Gestion des groupes</h1>
     </header>
     <main class="container">
-        <form method="POST" name="group">
             <section class="student-adding-area">
-                <label for="">
-                    <input id="add-name" type="text" name="add" value="Add Data" onclick="addStudent();" placeholder="Veuillez entrer le nom de l'élève à ajouter...">
-                    <button id="add-btn">Ajouter</button>
-                </label>
-                <!--<input type="checkbox" class="validation" checked>-->
+                <form method="POST" name="group"></form>
+                    <label for="">
+                        <input id="add-name" type="text" name="add" onclick="addStudent();" placeholder="Veuillez entrer le nom de l'élève à ajouter...">
+                        <input id="add-btn" type="submit" value="Ajouter">
+                    </label>
+                    <!--<input type="checkbox" class="validation" checked>-->
+                </form>
             </section>
             <section class="student-list">
                 <table class="table-list">
@@ -42,7 +43,6 @@
 
                 </div>
             </section>
-        </form>
     </main>
     <script src="script.js"></script>
 </body>
